@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TOM and JERRY</title>
+<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+<h1>3x3 Grid Path Builder</h1>
+<p>Click a 3x3 block. Yellow cells are path slots; lily pads are empty track cells; the pond is blocked.
+   Rotate the block or change its layout (cell positions never move), then guide the cat 🐱 to the rat 🐀.</p>
+
+<div id="levels"></div>
+<canvas id="board"></canvas>
+<div id="info"></div>
+<div id="message"></div>
+
+<div>
+  <button id="rotateBtn">🔄 Rotate</button>
+  <button id="layoutBtn">↔️ Change Layout</button>
+  <button id="validateBtn">✅ Validate</button>
+  <button id="resetBtn">↺ Reset Level</button>
+</div>
+
+<div id="popup">
+  <div class="card">
+    <div><img src="images/cat.webp" height="70" alt="cat"> <img src="images/rat.webp" height="70" alt="rat"></div>
+    <h2>Yupp! The game continues</h2>
+    <div style="margin-bottom:8px">The cat caught the rat!</div>
+    <button id="nextBtn">Next puzzle</button>
+  </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
