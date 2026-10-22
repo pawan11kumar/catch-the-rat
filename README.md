@@ -17,6 +17,9 @@ A browser-based puzzle game where you guide a cat 🐱 to catch a rat 🐀 by ar
 5. Click **✅ Validate**. If the path is correct, the cat hops along the route and catches the rat!
 6. Click **Next puzzle** in the popup to play a brand-new randomly generated puzzle.
 
+GET A VIEW :
+CATCH THE RAT : [https://pawan11kumar.github.io/catch-the-rat/]
+
 ### Tile types
 
 | Tile | Meaning |
